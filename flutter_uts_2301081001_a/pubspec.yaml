@@ -1,0 +1,22 @@
+name: flutter_uts_2301081001_a
+description: Aplikasi sistem warnet berbasis Flutter untuk UTS.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/ # Jika Anda ingin menggunakan gambar, tambahkan folder ini dan masukkan gambar ke sini
+
