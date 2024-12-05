@@ -15,7 +15,7 @@ class Students with ChangeNotifier {
   }
 
   Future<void> addStudent(String name, String age, String major) async {
-    Uri url = Uri.parse("http://localhost/flutter/student.php/student");
+    Uri url = Uri.parse("http://localhost/flutter_student/student.php/student");
 
     try {
       final response = await http.post(
